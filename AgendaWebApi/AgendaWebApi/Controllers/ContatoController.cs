@@ -35,6 +35,14 @@ namespace AgendaWebApi.Controllers
                 Email = "joao@gmail.com",
                 Fone = "11 4365-6598"
             });
+
+            _contatos.Add(new Contato
+            {
+                Id = 4,
+                Nome = "Antonio",
+                Email = "antonio@gmail.com",
+                Fone = "11 4365-6598"
+            });
         }
 
         [HttpGet]
